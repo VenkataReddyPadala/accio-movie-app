@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 30px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.movie-table th,
+.movie-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.movie-table thead {
+  background-color: rgb(240, 240, 240);
+}
